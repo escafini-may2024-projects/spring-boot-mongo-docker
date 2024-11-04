@@ -60,7 +60,7 @@ spec:
     spec:
       containers:
       - name: springappcontainer
-        image: pippidon/spring-boot-mongo:IMAGE_TAG
+        image: pippidon/spring-boot-mongo
         ports:
         - containerPort: 8080
         env:
